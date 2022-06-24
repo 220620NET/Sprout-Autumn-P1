@@ -3,17 +3,18 @@
 ## Project Description 
 Duration: 4 weeks
 
-Trello for Tracking: https://trello.com/b/qsPNwUwC/juniper-net-foundations-project
-
+[Trello for Tracking](https://trello.com/b/qsPNwUwC/juniper-net-foundations-project)
 
 ## App Description
 - Employees submit business expenses
 - Managers approve or reject submissions
 
 ### User Stories:
-- Employees and Managers should be able to register and note as either managers or employees
-- Users should be able to submit expense tickets
-- Managers should be able to review and approve tickets
+- Employees can register and note as employees
+- Employees can register and note as managers 
+- Employees can submit expense requests
+- Managers can review requests
+- Managers can either approve or deny requests
 
 ### Technology:
 - C#
