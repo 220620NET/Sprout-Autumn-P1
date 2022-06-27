@@ -1,5 +1,7 @@
 namespace Models;
 
+// Look up ... case sensitivity of class libraries
+
 // USERS
     // Create User class
         // Manager
