@@ -27,10 +27,8 @@ public class User
         role = userRole;
     }
 
-    // If I understood correctly, the following syntactic sugar automatically does validation checks?
-    // Is there another reason to use them other than reducing coding time?
-    // Why do the first two have zero references?
-    // Why do the last four have a reference?
+    // Why do they have different amounts of references?
+    // Why do the number/amounts of references change?
     public int ID {get; set;}
     public string userName {get; set;}
     public string password {get; set;}

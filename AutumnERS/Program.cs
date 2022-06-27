@@ -6,11 +6,7 @@ Console.WriteLine("ID: " + Barbara.ID);
 Console.WriteLine("username: " + Barbara.userName);
 Console.WriteLine(Barbara.firstName + " " + Barbara.lastName + "'s secret is " + Barbara.password + ".");
 Console.WriteLine(Barbara.firstName + " is a mere " + Barbara.role + ".");
-// Database address and creds kept elsewhere
-    // Table for Tickets
-    // Table for Users
 
-// SQL file containing all necessary queries
 
 
 
