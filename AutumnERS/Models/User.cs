@@ -1,6 +1,11 @@
 namespace Models;
-// Other classes under the Models namespace:
-    // Tickets
+
+// USERS
+    // Create User class
+        // Manager
+        // Employee
+    // User creation
+        // User login
 
 public class User
 {

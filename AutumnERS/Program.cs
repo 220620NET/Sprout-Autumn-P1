@@ -12,30 +12,9 @@ Console.WriteLine(Barbara.firstName + " is a mere " + Barbara.role + ".");
 
 // SQL file containing all necessary queries
 
-// TICKETS
-    // Create Ticket Class
-    // Ticket states
-        // Pending
-        // Approved
-        // Denied
-    // ticket creation
-    // ticket review
-        // View by Manager
-            // View tickets from everyone
-                // Filter requests by status
-            // View tickets from individual
-                // approve
-                // Deny
 
-        // View by Employee
-            // approval request
 
-// USERS
-    // Create User class
-        // Manager
-        // Employee
-    // User creation
-        // User login
+
 
 Console.WriteLine("Type a username for your account.");
 // need a method for then creating a new user following up with questions to fill in properties. 
