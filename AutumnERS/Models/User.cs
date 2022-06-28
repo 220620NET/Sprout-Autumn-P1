@@ -13,7 +13,7 @@ public class User
 {
     // What is the advantage of this over an empty constructor? So I can use autoprops?
     public User(
-        int userID, 
+        int userID,             // userID will be created by index in array of users
         string credName, 
         string userPassword, 
         string userFirstName, 
