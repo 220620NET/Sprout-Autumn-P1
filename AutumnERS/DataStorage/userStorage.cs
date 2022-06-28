@@ -1,19 +1,14 @@
-namespace DataAccess;
+namespace DataStorage;
 
 using Models;
-using DataStorage;
-using DataAccess;
 using customExceptions;
 
 
-// Sample, Existing Users
+// Creates array to hold up to 10 sample, existing Users
 
-User Barbara = new User (01, "bgordon", "oracle", "Barbara", "Gordon", "Employee");
+public static class UserStorage
+{
+    public static User[] userList {get; set;} = new User[10];
 
-Console.WriteLine("userID: " + Barbara.userID);
-Console.WriteLine("userName: " + Barbara.userName);
-Console.WriteLine(Barbara.firstName + " " + Barbara.lastName + "'s secret is " + Barbara.password + ".");
-Console.WriteLine(Barbara.firstName + " is a mere " + Barbara.userRole + ".");
-
-
-// Array for Users
+    public static int userListSize {get; set;} = 0;
+}
