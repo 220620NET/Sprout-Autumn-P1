@@ -5,12 +5,12 @@ namespace customExceptions;
 
 // userName already taken
 
-public class UsernameNotAvailable : System.Exception
+public class UserNameUnavailable : System.Exception
 {
-    public UsernameNotAvailable() { }
-    public UsernameNotAvailable(string message) : base(message) { }
-    public UsernameNotAvailable(string message, System.Exception inner) : base(message, inner) { }
-    protected UsernameNotAvailable(
+    public UserNameUnavailable() { }
+    public UserNameUnavailable(string message) : base(message) { }
+    public UserNameUnavailable(string message, System.Exception inner) : base(message, inner) { }
+    protected UserNameUnavailable(
         System.Runtime.Serialization.SerializationInfo info,
         System.Runtime.Serialization.StreamingContext context) : base(info, context) { }
 }
@@ -18,12 +18,12 @@ public class UsernameNotAvailable : System.Exception
 
 // login failure
 
-public class InvalidCredentials : System.Exception
+public class InvalidCreds : System.Exception
 {
-    public InvalidCredentials() { }
-    public InvalidCredentials(string message) : base(message) { }
-    public InvalidCredentials(string message, System.Exception inner) : base(message, inner) { }
-    protected InvalidCredentials(
+    public InvalidCreds() { }
+    public InvalidCreds(string message) : base(message) { }
+    public InvalidCreds(string message, System.Exception inner) : base(message, inner) { }
+    protected InvalidCreds(
         System.Runtime.Serialization.SerializationInfo info,
         System.Runtime.Serialization.StreamingContext context) : base(info, context) { }
 }
