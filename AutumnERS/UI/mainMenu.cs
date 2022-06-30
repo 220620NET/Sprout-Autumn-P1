@@ -1,5 +1,5 @@
 namespace UI;
-using Models;
+//using Models;
 // using Services;
 // using DataAccess;
 // using DataStorage;
@@ -38,12 +38,36 @@ public class MainMenu
                     Console.WriteLine("Choose a userName");
                     string maybeUserName = Console.ReadLine();
                     Console.WriteLine("Your typed " + maybeUserName + ".");
+                    Console.WriteLine("Type a password.");
+                    string maybePassword = Console.ReadLine();
+                    Console.WriteLine("First Name: ");
+                    string maybeFirstName = Console.ReadLine();
+                    Console.WriteLine("Last Name: ");
+                    string maybeLastName = Console.ReadLine();  
+                    Console.WriteLine("Your role: ");
+                    Console.WriteLine("[1] Employee");
+                    Console.WriteLine("[2] Manager");
+                    string maybeRole = Console.ReadLine();  
+                    switch(maybeRole)
+                    {
+                        case "1": // Employee
+                            maybeRole = "Employee";
+                        break;
+                        case "2": // Manager
+                            maybeRole = "Manager";               
+                        break;
+                        default:
+                            Console.WriteLine("Thank you.");
+                        break;
+                    }  
+                    Console.WriteLine(maybeFirstName + " " + maybeLastName + " is a " + maybeRole + ".");               
                 break;
                 default:
                     Console.WriteLine("What kind of nonsense was that?");
                 break;
-
             } 
         } while (true);
     }
 }
+
+
