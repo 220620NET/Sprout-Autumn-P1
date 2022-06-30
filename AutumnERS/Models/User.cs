@@ -9,7 +9,7 @@ public class User
         string firstName, 
         string lastName, 
         string userRole)        // Employee or Manager
-    // is there an advantage to using "this.userID = userID"?
+                                // is there an advantage to using "this.userID = userID"?        
     {
         this.userID = userID;
         this.userName = userName;

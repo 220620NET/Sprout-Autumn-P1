@@ -1,13 +1,10 @@
-namespace Services;
-
 using Models;
-using DataStorage;
-// using DataAccess;
+using DataAccess;
 // using customExceptions;
 
+namespace Services;
 
-
-public class UserService
+public class ticketService
 {
     public void Register(Ticket ticketToRegister)
     {
