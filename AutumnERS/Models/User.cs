@@ -19,6 +19,11 @@ public class User
         this.userRole = userRole;
     }
 
+public enum userRoles 
+{
+    Employee,
+    Manager
+}
     // Why do they have different amounts of references?
     // Why do the number/amounts of references change?
     public int userID {get; set;}

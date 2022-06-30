@@ -4,10 +4,7 @@ namespace Models;
 
 // TICKETS
     // Create Ticket Class
-    // Ticket states
-        // Pending
-        // Approved
-        // Denied
+
     // ticket creation
     // ticket review
         // View by Manager
@@ -24,15 +21,36 @@ public class Ticket
 {
     public Ticket(
         int ticketID,
-        int submitterID,
-        int reviewerID,
+        int authorID,
+        decimal dollarAmount,
+        int resolverID,
         string ticketStatus,
-        string approvalReason,
+        string description,
         string denialReason
     )
     {
-        // finish this
+        this.ticketID = ticketID;
+        this.authorID = authorID;
+        this.dollarAmount = dollarAmount;
+        this.resolverID = resolverID;
+        this.ticketStatus = ticketStatus;
+        this.description = description;
+        this.denialReason = denialReason;
     }
+
+    public enum ticketStatuses {
+        Pending, 
+        Approved,
+        Denied
+    }
+
+    public int ticketID {get; set;}
+    public int authorID {get; set;}
+    public decimal dollarAmount {get; set;}
+    public int resolverID {get; set;}
+    public string ticketStatus {get; set;}
+    public string description {get; set;}
+    public string denialReason {get; set;}
 
     // methods for 
         // submitting ticket
