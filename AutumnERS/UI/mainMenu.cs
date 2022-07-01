@@ -1,16 +1,14 @@
 
 using Models;
-// using Services;
-// using DataAccess;
-// using DataStorage;
+using Services;
+using System.Text.Json;
 
-// Interacts with Users
-// User creation
-// User login
 
-// need a method for then creating a new user following up with questions to fill in properties. 
+
 namespace UI;
-
+                                                // Interacts with Users
+                                                // creating a new user  
+                                                // User login
 public class MainMenu
 {
     public void Begin()
