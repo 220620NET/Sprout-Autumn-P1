@@ -10,7 +10,7 @@ public class AuthService
     {
         try
         {
-            return new userRepository().AddUser(newUser);
+            return new UserRepository().AddUser(newUser);
         }
         catch(JsonException)
         {

@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace DataAccess;
 
-public class userRespository
+public class UserRepository
 {
     private const string filePath = "userRegistry.json";
 
