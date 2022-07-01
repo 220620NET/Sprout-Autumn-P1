@@ -5,6 +5,7 @@
     <ProjectReference Include="..\Models\models.csproj" />
     <ProjectReference Include="..\UI\UI.csproj" />
   </ItemGroup>
+  
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
