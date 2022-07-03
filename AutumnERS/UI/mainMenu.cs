@@ -19,6 +19,9 @@ public class MainMenu
             Console.WriteLine("What do you need to do first?");
             Console.WriteLine("[1] Login");
             Console.WriteLine("[2] Register");
+            Console.WriteLine("[3] View User List");
+            Console.WriteLine("[4] View Ticket List");
+            Console.WriteLine("[5] Exit");
             string input = Console.ReadLine();
 
             switch(input)
@@ -57,7 +60,18 @@ public class MainMenu
                             Console.WriteLine("Thank you.");
                         break;
                     }  
-                    Console.WriteLine(maybeFirstName + " " + maybeLastName + " is a " + maybeRole + ".");               
+                    Console.WriteLine(maybeFirstName + " " + maybeLastName + " is a " + maybeRole + ".");
+                    Environment.Exit(0);               
+                break;
+                case "3": // View User List
+                    Console.WriteLine("The User list displays.");
+                break;
+                case "4": // View Ticket List
+                    Console.WriteLine("The Ticket list displays.");
+                break;
+                case "5": // Exit
+                    Console.WriteLine("Goodbye.");
+                    Environment.Exit(0);
                 break;
                 default:
                     Console.WriteLine("What kind of nonsense was that?");
