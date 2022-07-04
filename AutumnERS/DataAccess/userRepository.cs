@@ -7,8 +7,10 @@ public class UserRepository
 {
     private const string filePath = "userRegistry.json";
 
+    // The Add method takes paramateres, one for key and one for value
     public User AddUser(User newUser){
         string fileString = File.ReadAllText(filePath);
+        
 
         try
         {
@@ -22,4 +24,9 @@ public class UserRepository
             throw;
         }
     }
+
+    
+
+
+
 }
