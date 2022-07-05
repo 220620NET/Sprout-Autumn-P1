@@ -4,6 +4,7 @@
     <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
     <ProjectReference Include="..\Models\Models.csproj" />
     <ProjectReference Include="..\UI\UI.csproj" />
+    
   </ItemGroup>
   
   <PropertyGroup>

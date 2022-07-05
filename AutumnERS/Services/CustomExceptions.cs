@@ -1,4 +1,9 @@
 namespace customExceptions;
+
+// Juniper has great Custom Exceptions in 
+    // 02IntermediateCSharp/PokemonStorageSystem/Models/Pokemon.cs
+    // 02IntermediateCSharp/PokemonStorageSystem/Models/PokeTrainer.cs
+
 public class ResourceNotFound : System.Exception
 {
     public ResourceNotFound() { }
