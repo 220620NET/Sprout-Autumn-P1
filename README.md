@@ -22,6 +22,7 @@ Duration: 4 weeks
 - Microsoft SQL Server
 - Azure 
 - ADO.NET
+    - [ADO.NET Overview](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-overview)
     - [SQL Server and ADO.NET](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/)
     - [ADO.NET](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/)
     - [ADO.NET code examples](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-code-examples#sqlclient)
