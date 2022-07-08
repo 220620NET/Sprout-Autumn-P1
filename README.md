@@ -18,7 +18,10 @@ Duration: 4 weeks
 
 ### Technology:
 - C#
-- ADO.NET
 - ASP.NET
 - Microsoft SQL Server
 - Azure 
+- ADO.NET
+    - [SQL Server and ADO.NET](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/)
+    - [ADO.NET](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/)
+    - [ADO.NET code examples](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-code-examples#sqlclient)
